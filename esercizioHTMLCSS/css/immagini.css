@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #004040;
+}
+p{
+	color: yellow;
+}
+a{
+	color:yellow;
+}
+img.sole{
+	width: 10%;
+	height: 10%;
+}
+
+img.luna{
+	width: 10%;
+	height: 10%;
+}
+img.cloud{
+	width: 20%;
+	height: 20%;
+}
+img.nu{
+    position: relative;
+    right:100px;
+	width: 20%;
+	height: 20%;
+}
+img.lu{
+
+	width: 10%;
+	height: 10%;
+	
+}
