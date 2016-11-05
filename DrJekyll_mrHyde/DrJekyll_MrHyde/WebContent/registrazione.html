@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/miostile.css" type="text/css">
+<meta charset="ISO-8859-1">
+<title>Registrazione</title>
+</head>
+<body>
+	<h1>Benvenuti alla Pagina di Registrazione</h1>
+	<p style="color: blue">inserendo i dati nel modulo sottostante potrai usurfruire di servizi eccezionali.<span class=importante>Cosa aspetti?</span></p>
+	<p>(se incontri difficoltà invia un'email all'indirizzo <a href=mailto:info@worldbooks.it>info@worldbooks.it)</a></p>
+
+	<h2>Modulo di Registrazione</h2>
+	<form method=get action="terza.html">
+	<table>
+	 <tr>
+	 	<td>Nome e Cognome</td>
+	 	<td><input name=nomi type="text"></td>
+	 </tr>
+	 <tr>
+	 	<td>Sesso</td>
+	 	<td><input name=sesso type="radio">M <input name=sesso type="radio">F</td>
+	 </tr>
+	 <tr>
+	 	<td>Hai ricevuto notizia di questo servizio tramite</td>
+	 	<td><input name=internet type="checkbox">Internet<input name=giornale type="checkbox">Giornale<input name=televisione type="checkbox">Televisione</td>
+	 </tr>
+	 <tr>
+	 	<td>Desideri ricevere un messaggio infromativo ogni</td>
+	 	<td>
+	 		<select name="freq">
+	 			<option value=frequenza>frequenza</option>
+	 			<option value=settimana>settimana</option>
+	 			<option value=mese>mese</option>
+	 			<option value=anno>anno</option>
+	 		</select>
+	 	</td>
+	 </tr>
+	 <tr>
+	 	<td>Eventuali commenti</td>
+	 	<td>
+	 		<textarea name=commenti rows="10" cols="30">
+	 		</textarea>
+	 	</td>
+	 </tr>
+	</table>
+		<input type=submit value=invia>
+	</form>
+</body>
+</html>
