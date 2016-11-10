@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript">
+        function approva (radio) {
+				if(radio.value==='si')
+					window.confirm("hai accettato");
+				else
+					alert("non hai accettato");
+        }
+	</script>
+	
 <meta charset="ISO-8859-1">
 <title>punto due</title>
 </head>
 <body>
-<form action="">
 autorizzi?
-<input name=sesso type="radio">Si<input name=sesso type="radio">No
-<script type="text/javascript">
-var ok=sesso;
-if(ok===Si){
-	window.confirm('accettata');
-}
-else
-	alert("non hai accettato");
-</script>
-</form>
+	<input type="radio" id="si" name="ok" onclick="approva (this)" value="si">
+	SI
+	<input type="radio" id="no" name="ok" onclick="approva (this)" value="no">
+	NO
 </body>
 </html>
