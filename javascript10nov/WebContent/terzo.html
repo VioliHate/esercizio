@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>terzo punto</title>
+<script type="text/javascript">
+function persona(nome,cognome,indirizzo){
+	this.nome=nome;
+	this.cognome=cognome;
+	this.indirizzo=indirizzo;
+}
+
+var amministratori=new Array();
+
+amministratori[0]=new persona("mario","rossi","ciao");
+amministratori[1]=new persona("mario","rossi","ciao");
+amministratori[2]=new persona("mario","rossi","ciao");
+amministratori[3]=new persona("mario","rossi","ciao");
+
+var nome=prompt("inserisci nome");
+var trovato=0;
+for(var i=0;i<amministratori.length;i++){
+	
+	if(nome===amministratori[i].nome){
+		trovato=1;
+	}
+		break;
+}
+if(trovato===1)
+	alert("accettato");
+else
+	alert("non accettato");
+</script>
+</head>
+<body>
+
+</body>
+</html>

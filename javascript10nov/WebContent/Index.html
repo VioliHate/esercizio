@@ -3,20 +3,22 @@
 <head>
 <!-- metodo embedded -->
 <script type="text/javascript">
-	function prova{
-	var nome;
-	nome= prompt("inserisci valore");
-	alert('il valore è'+nome);
-	}
-	prova();
+
+var nome;
+var cognome;
+nome=prompt('inserisci nome');
+cognome=prompt('inserisci cognome');
+alert('benvenuto '+nome+' '+cognome);
+
 </script>
 <meta charset="ISO-8859-1">
-<title>Una bella pagina</title>
+<title>punto 1</title>
 </head>
 <body>
-<script type="text/javascript" src=prova.js>
+questa è una pagina di prova
+<p>questo è un paragrafo</p>
+<script type="text/javascript">
+document.write("benvenuto "+nome+" "+cognome);
 </script>
-<!-- questo è javascript in lane -->
-<input type="button" onclick="alert('premuto bottone');" value="ok">
 </body>
 </html>
