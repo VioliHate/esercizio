@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Il tuo stile</title>
+</head>
+<body id="corpo">
+<h1 id="h1">questa pagina e modificabile a tuo piacimento</h1>
+<h3 id="h2">scrivo qualcosa per far vedere le modifiche</h3>
+<p id="p1">nella vecchia fattoria</p>
+<p id="p2">ia ia oh.</p>
+<h3 id="h3">questo è un nuovo tag h3</h3>
+<p id="p3">questo è un nuovo paragrafo</p>
+<p id="p4">bello vero?</p>
+<h3 id="h4">fine.</h3>
+<script type="text/javascript">
+var colore=prompt('inserisci colore sfondo(red,green,yellow,blue,purple)');
+document.body.style.backgroundColor=colore;
+var ctesto=prompt('inserisci colore testo(red,green,yellow,blue,purple)');
+document.getElementById("h1").style.color = ctesto;
+document.getElementById("h2").style.color = ctesto;
+document.getElementById("h3").style.color = ctesto;
+document.getElementById("h4").style.color = ctesto;
+document.getElementById("p1").style.color = ctesto;
+document.getElementById("p2").style.color = ctesto;
+document.getElementById("p3").style.color = ctesto;
+document.getElementById("p4").style.color = ctesto;
+var pixel=prompt('inserisci dimensione carattere (solo numero)');
+pixel=pixel+"px";
+document.getElementById("h1").style.fontSize = pixel;
+document.getElementById("h2").style.fontSize = pixel;
+document.getElementById("h3").style.fontSize = pixel;
+document.getElementById("h4").style.fontSize = pixel;
+document.getElementById("p1").style.fontSize = pixel;
+document.getElementById("p2").style.fontSize = pixel;
+document.getElementById("p3").style.fontSize = pixel;
+document.getElementById("p4").style.fontSize = pixel;
+</script>
+</body>
+</html>
