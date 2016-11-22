@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src="js\contatti.js"></script>
+<title>Gestione Lista Contatti</title>
+</head>
+<body>
+	<h1>Gestione Lista Contatti</h1>
+	<table id="table">
+		<thead>
+		 <th>First Name</th>
+		 <th>Last Name</th>
+		 <th>Phone</th>
+		 <th>Mail</th>
+		</thead>
+	     <td>
+		  <input id="nome" type="text" placeholder="First Name">
+		 </td>
+		 <td>
+		  <input id="cognome" type="text" placeholder="Last Name">
+		 </td>
+		 <td>
+		  <input id="numero" type="text" placeholder="Number">
+		 </td>
+		 <td>
+		  <input id="mail" type="text" placeholder="your@mail.com">
+		 </td>
+		 <td>
+		<button onclick="addLine()">add contact</button>
+		<button onclick="resetValori()">reset</button>
+		 </td>
+	</table>
+</body>
+</html>
